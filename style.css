@@ -1,0 +1,71 @@
+
+*{
+ margin: 0px;
+padding: 0px;
+
+}
+
+body {
+height: 100vh;
+width: 100vw;
+background-color:aqua;
+
+
+
+}
+.parant{
+    width: 600px;
+    height: 400px;
+}
+
+
+.card {
+    width: 700px;
+    height: 400px;
+    display: flex;
+   word-wrap: normal;
+    border: 2px solid black;
+    display: inline-block;
+    position:relative;
+    left: 300px;
+    top: 100px;
+   
+   
+}
+.img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: contain;
+    position: relative;
+    left: 272px;
+    bottom:100px ;
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap; 
+   
+}
+
+
+#recife{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 50rem;
+   
+
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    color: orange;
+
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
