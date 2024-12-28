@@ -1,6 +1,7 @@
 
 let input = document.querySelector("input");
 let one = document.querySelector("#one");
+let btn = document.querySelector("button")
 
 let recife = async () => {
     let response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input.value}`);
@@ -24,6 +25,6 @@ let recife = async () => {
     }
 };
 
-input.addEventListener("input", (e) => {
+btn.addEventListener("click", (e) => {
     recife();
 });
